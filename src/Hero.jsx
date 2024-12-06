@@ -25,7 +25,7 @@ const Hero = () => {
             <button className="w-fit px-[8px] py-[4px] rounded-[64px] bg-[#A3DC2F] text-white ">
               New
             </button>
-            <h6 className="">Introducing AI Automation</h6>
+            <h6 className="">Unleash the Power of AI for Your Fitness Goals</h6>
             <FaArrowRight />
           </div>
           <h1 className="2xl:text-[72px] font-[700] xl:text-[60px] lg:text-[36px] text-[24px] text-center mt-[14px] xl:font-[700] text-white ">
