@@ -7,9 +7,9 @@ import img1 from "./assets/Pic.png";
 import com from "./assets/inverted comma.png";
 import img3 from "./assets/Ellipse 14.png";
 import img2 from "./assets/Ellipse 146.png";
-import img4 from './assets/G1.png'
-import img5 from './assets/G2.png'
-import img6 from './assets/G3.png'
+import img4 from "./assets/G1.png";
+import img5 from "./assets/G2.png";
+import img6 from "./assets/G3.png";
 const Review = () => {
   const swiperRef = useRef(null);
 
@@ -76,6 +76,14 @@ const Review = () => {
                         display:none
                     }
                 }
+                    @media screen and (max-width: 1500px) {
+
+                    
+                    .swiper-button-next,
+                    .swiper-button-prev {
+                        display:none
+                    }
+                }
             `,
       ],
     };
@@ -96,14 +104,20 @@ const Review = () => {
         <Swiper-slide class=" h-fit">
           <div className="flex rounded-[20px] h-fit justify-between flex-col 2xl:px-[30px] 2xl:py-[20px] xl:px-[25px] lg:px-[20px] lg:py-[15px] p-[15px] gap-3 mx-20 bg-[#161616] text-white  w-[200px] lg:w-[300px] xl:w-[400px]  2xl:w-[600px]  ">
             <h6 className="text-[14px] lg:text-[26px] font-[400]">
-              "Using CreatorLo, we saw a noticeable increase in engagement and sales through influencer marketing. It's a game-changer for any business looking to harness the power of influencer marketing."
+              "Using GymFluencer, we saw a noticeable increase in engagement and
+              sales through influencer marketing. It's a game-changer for any
+              business looking to harness the power of influencer marketing."
             </h6>
             <div className="flex justify-between">
               <div className="flex gap-1 items-center">
-                <img className="w-[60px] h-[60px] rounded-full" src={img6} alt="" />
+                <img
+                  className="w-[60px] h-[60px] rounded-full"
+                  src={img6}
+                  alt=""
+                />
                 <div className="flex flex-col gap-1">
                   <h3 className="text-[14px] lg:text-[26px] font-[400]">
-                  Sarah Williams
+                    Sarah Williams
                   </h3>
                   <div className=" flex gap-1 text-[#FFC250] test-[14px] ">
                     <RiStarSFill />
@@ -125,14 +139,20 @@ const Review = () => {
         <Swiper-slide class="h-fit ">
           <div className="flex rounded-[20px] h-fit justify-between  flex-col 2xl:px-[30px] 2xl:py-[20px] xl:px-[25px] lg:px-[20px] lg:py-[15px] p-[15px] gap-3 mx-20 bg-[#161616] text-white w-[200px] lg:w-[300px] xl:w-[400px]  2xl:w-[600px] ">
             <h6 className=" text-[14px] lg:text-[26px]  font-[400]">
-              "Our influencer marketing efforts have never been more efficient. The user-friendly platform and excellent support team make influencer collaborations a breeze."
+              "Our influencer marketing efforts have never been more efficient.
+              The user-friendly platform and excellent support team make
+              influencer collaborations a breeze."
             </h6>
             <div className="flex justify-between">
               <div className="flex gap-1 items-center">
-                <img className="w-[60px] h-[60px] rounded-full" src={img2} alt="" />
+                <img
+                  className="w-[60px] h-[60px] rounded-full"
+                  src={img2}
+                  alt=""
+                />
                 <div className="flex flex-col gap-1">
                   <h3 className="text-[14px] lg:text-[26px] font-[400]">
-                  Michael Thompson
+                    Michael Thompson
                   </h3>
                   <div className=" flex gap-1 text-[#FFC250] test-[14px] ">
                     <RiStarSFill />
@@ -154,14 +174,20 @@ const Review = () => {
         <Swiper-slide class="h-fit">
           <div className="flex rounded-[20px] h-fit justify-between  flex-col 2xl:px-[30px] 2xl:py-[20px] xl:px-[25px] lg:px-[20px] lg:py-[15px] p-[15px] gap-3 mx-20 bg-[#161616] text-white  w-[200px] lg:w-[300px] xl:w-[400px]  2xl:w-[600px]  ">
             <h6 className="text-[14px] lg:text-[26px] font-[400]">
-              "CreatorLo has significantly boosted our online presence. The influencers we connected with were top-notch and truly aligned with our brand values"
+              "GymFluencer has significantly boosted our online presence. The
+              influencers we connected with were top-notch and truly aligned
+              with our brand values"
             </h6>
             <div className="flex justify-between">
               <div className="flex gap-1 items-center">
-                <img className="w-[60px] h-[60px]  rounded-full" src={img4} alt="" />
+                <img
+                  className="w-[60px] h-[60px]  rounded-full"
+                  src={img4}
+                  alt=""
+                />
                 <div className="flex flex-col gap-1">
                   <h3 className="text-[14px] lg:text-[26px] font-[400]">
-                  Emily Chen
+                    Emily Chen
                   </h3>
                   <div className=" flex gap-1 text-[#FFC250] test-[14px] ">
                     <RiStarSFill />
@@ -183,14 +209,20 @@ const Review = () => {
         <Swiper-slide class="h-fit">
           <div className="flex flex-col rounded-[20px]  h-fit justify-between  2xl:px-[30px] 2xl:py-[20px] xl:px-[25px] lg:px-[20px] lg:py-[15px] p-[15px] bg-[#161616] gap-3 mx-20 text-white  w-[200px] lg:w-[300px] xl:w-[400px]  2xl:w-[600px]  ">
             <h6 className="text-[14px] lg:text-[26px] font-[400]">
-              "CreatorLo helped us connect with influencers who truly resonate with our target audience. The results have been phenomenal, with a marked increase in brand loyalty and customer engagement.".
+              "GymFluencer helped us connect with influencers who truly resonate
+              with our target audience. The results have been phenomenal, with a
+              marked increase in brand loyalty and customer engagement.".
             </h6>
             <div className="flex justify-between">
               <div className="flex gap-1 items-center">
-                <img className="w-[60px] h-[60px] rounded-full" src={img1} alt="" />
+                <img
+                  className="w-[60px] h-[60px] rounded-full"
+                  src={img1}
+                  alt=""
+                />
                 <div className="flex flex-col gap-1">
                   <h3 className="text-[14px] lg:text-[26px] font-[400]">
-                  David Martinez
+                    David Martinez
                   </h3>
                   <div className=" flex gap-1 text-[#FFC250] test-[14px] ">
                     <RiStarSFill />
@@ -212,14 +244,20 @@ const Review = () => {
         <Swiper-slide class="h-fit">
           <div className="flex flex-col rounded-[20px] h-fit justify-between  bg-[#161616] 2xl:px-[30px] 2xl:py-[20px] xl:px-[25px] lg:px-[20px] lg:py-[15px] p-[15px] gap-3 mx-20 text-white  w-[200px] lg:w-[300px] xl:w-[400px]  2xl:w-[600px]  ">
             <h6 className="text-[14px] lg:text-[26px] font-[400]">
-            "Thanks to CreatorLo, our product launches are more successful than ever. The seamless integration with top influencers has amplified our reach and visibility across social media platforms."
+              "Thanks to GymFluencer, our product launches are more successful
+              than ever. The seamless integration with top influencers has
+              amplified our reach and visibility across social media platforms."
             </h6>
             <div className="flex justify-between">
               <div className="flex gap-1 items-center">
-                <img className="w-[60px] h-[60px] rounded-full" src={img5} alt="" />
+                <img
+                  className="w-[60px] h-[60px] rounded-full"
+                  src={img5}
+                  alt=""
+                />
                 <div className="flex flex-col gap-1">
                   <h3 className="text-[14px] lg:text-[26px] font-[400]">
-                  Jessica Lee
+                    Jessica Lee
                   </h3>
                   <div className=" flex gap-1 text-[#FFC250] test-[14px] ">
                     <RiStarSFill />
@@ -246,7 +284,11 @@ const Review = () => {
             </h6>
             <div className="flex justify-between">
               <div className="flex gap-1 items-center">
-                <img className="w-[60px] h-[60px] rounded-full" src={img3} alt="" />
+                <img
+                  className="w-[60px] h-[60px] rounded-full"
+                  src={img3}
+                  alt=""
+                />
                 <div className="flex flex-col gap-1">
                   <h3 className="text-[14px] lg:text-[26px] font-[400]">
                     Alfredo Lubin

@@ -17,9 +17,9 @@ const Pmain = () => {
             Find the right plan
           </h1>
           <p className="text-[#9B9CA1] text-center  mb-[20px] mx-auto mt-[15px] text-[14px] lg:text-[22px] font-[400]">
-          Talk to our Expert Sales Team to get the best out of CreatorLo which matches your Influencer Requirement
+          Talk to our Expert Sales Team to get the best out of GymFluencer which matches your Influencer Requirement
           </p>
-          <NavLink to="https://calendly.com/creatorlo-support?primary_color=8eff00">
+          <NavLink to="https://calendly.com/GymFluencer-support?primary_color=8eff00">
           <button className=" mx-auto flex items-center mb-[62px]  text-[18px] text-[#1d1c20] bg-[#F2F2F2] rounded-[100px]  font-[700] px-[30px] py-[12px]">
             Talk to our Experts
           </button>

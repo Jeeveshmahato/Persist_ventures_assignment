@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
-import img8 from "./assets/CreatorLo Logo (4).png";
+import img8 from "./assets/GymFluencer Logo (4).png";
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);

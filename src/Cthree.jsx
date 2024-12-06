@@ -6,7 +6,7 @@ const BarChart = () => {
     const kpi1 = {
         dates: ["A", "B", "C", "D", "E"],
         docCount: [8.12, 6.22, 3.77, 3.63, 4.07],
-        title: 'Views for Last 5 Videos'
+        title: 'People for Last few month'
     };
 
     // Convert dates to categories

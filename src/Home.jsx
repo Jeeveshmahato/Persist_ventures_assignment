@@ -7,22 +7,23 @@ import Graph from "./Graph";
 import Tmain from "./Tmain";
 import Pmain from "./Pmain";
 import Features from "./Features";
-
+import KeyFeature from "./KeyFeature";
+import Steps from "./Steps";
+import FAQ from "./Faq";
 
 const Home = () => {
   return (
-    <div className="relative font-DMSans bg-[#0F0F0F]">
+    <div className="relative font-DMSans bg-[#0F0F0F]s bg-white ">
       {/* Header  */}
-      <div className="z-50 absolute top-0 left-0 right-0">
-        <Header />
-        {/* <Testtwo /> */}
-        {/* <Testone /> */}
-      </div>
+      <Header />
+      {/* <Testtwo /> */}
+      {/* <Testone /> */}
 
-      <main className="bg-[#1d1c20] pt-[108px] flex flex-col justify-center items-center gap-[62px] relative">
+      <main className="bg-[#1d1c20]s bg-white  flex flex-col justify-center items-center relative">
         {/* Hero section  */}
         <Hero />
-
+        <KeyFeature />
+        <Steps />
         {/* graph section  */}
         <Graph />
 
@@ -33,6 +34,7 @@ const Home = () => {
         {/* pricing section  */}
         <Pmain />
       </main>
+      <FAQ />
 
       {/* Footer */}
       <Footer />

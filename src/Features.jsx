@@ -7,14 +7,14 @@ const Features = () => {
     <>
       <section
         id="features"
-        className="px-2 font-DMSans space-y-6 py-8 md:py-12 lg:py-24 max-w-5xl mx-auto"
+        className="px-2 bg-black w-full font-DMSans space-y-6 py-8 md:py-12 lg:py-24 mx-auto"
       >
         <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
           <h2 className="text-center mt-[14px] lg:text-[36px] text-[20px] xl:text-[72px] font-[700] text-white">
             Our USP's
           </h2>
           <p className="text-[#9B9CA1] text-[16px] font-[400] mb-4 text-center">
-            CreatorLo is chosen by top brands and agencies because of the value
+            GymFluencer is chosen by top brands and agencies because of the value
             we provide.
           </p>
         </div>
