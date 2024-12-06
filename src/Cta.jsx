@@ -3,7 +3,7 @@ import img1 from "./assets/Influe.jpeg";
 import { NavLink } from "react-router-dom";
 export default function Cta() {
   return (
-    <div className=" bg-[#0F0F0F] mb-[100px] text-white gap-5 lg:gap-0 rounded-[40px] px-4 py-12 mt-[200px] items-center  flex flex-col lg:flex-row  ">
+    <div className=" bg-[#0F0F0F] mb-[100px] text-white gap-5 lg:gap-0 rounded-[40px] px-4 py-12 sm:mt-[120px] mt-[60px] lg:mt-[200px] items-center  flex flex-col lg:flex-row  ">
       <div className="w-full mx-auto  sm:px-6 lg:px-7">
         <div className="">
           <h1 className=" 2xl:text-[72px] xl:[60px] lg:text-[36px] text-center text-[20px] font-[700]">

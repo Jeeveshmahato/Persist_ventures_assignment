@@ -3,11 +3,11 @@ import React from "react";
 const KeyFeature = () => {
   return (
     <div className="mx-auto px-4 py-8 bg-white ">
-      <div className=" flex w-full items-center justify-center gap-5">
-        <h1 className="text-3xl lg:w-[30%] font-bold text-orange-500 mb-6 text-center transition-transform transform hover:scale-110">
+      <div className=" flex flex-col lg:flex-row w-full items-center justify-center gap-5">
+        <h1 className="text-3xl w-full lg:w-[30%] font-bold text-orange-500 mb-6 text-center transition-transform transform hover:scale-110">
           Discover Our App's Key Features
         </h1>
-        <p className="text-gray-700 mb-8 w-[60%] font-[900] text-[18px]  mx-auto transition-transform transform hover:scale-110">
+        <p className="text-gray-700 mb-8 w-full lg:w-[60%] font-[900] text-[18px]  mx-auto transition-transform transform hover:scale-110">
           GymFluencer is your ultimate fitness companion, designed to help you
           track your workouts with ease. Our application allows you to log
           exercises, count reps, and calculate calories burned, all through a

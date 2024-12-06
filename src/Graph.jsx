@@ -27,7 +27,7 @@ const Graph = () => {
             <div className=" text-white  mt-[20px]  gap-8 flex-col  flex w-full">
               <div className=" w-full">
                 <div className=" w-full  flex  gap-2 flex-wrap">
-                  <div className=" flex flex-wrap w-full justify-between gap-2">
+                  <div className=" flex flex-wrap w-full items-center lg:items-start justify-center  lg:justify-between gap-2">
                     <div className=" bg-blue-400 px-5 flex justify-between items-center rounded-[8px] py-2 w-[200px] ">
                       <p className=" text-white text-[16px] font-[400]">
                         Workouts

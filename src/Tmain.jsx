@@ -6,7 +6,7 @@ const Tmain = () => {
   return (
     <>
       <div  id="Testimonal" className=" flex flex-col  w-full px-[20px] bg-black ">
-        <div className="  flex mx-auto border rounded-[32px] mt-[200px] border-[#A3DC2F] gap-[8px] w-fit items-center py-[8px] px-[12px] text-[#A3DC2F] font-[500] text-[14px]">
+        <div className="  flex mx-auto border rounded-[32px] mt-[60px] sm:mt-[120px] lg:mt-[200px] border-[#A3DC2F] gap-[8px] w-fit items-center py-[8px] px-[12px] text-[#A3DC2F] font-[500] text-[14px]">
           <FaRegMessage />
           <h6  id="Testimonial">Testimonials</h6>
         </div>

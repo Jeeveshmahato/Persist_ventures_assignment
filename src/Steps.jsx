@@ -5,15 +5,15 @@ const Steps = () => {
     <>
      <div className=" w-[95%] mx-auto">
          {/* Step 1 */}
-      <div className="flex flex-col gap-2 lg:gap-6 md:flex-row items-center justify-center min-h-screen p-4">
-        <div className="flex  items-center justify-center md:w-1/2 w-full">
+      <div className="flex flex-col gap-2 lg:gap-6 md:flex-row items-center justify-center  p-4">
+        <div className="flex   items-center justify-center md:w-1/2 w-full">
           <img
             className="w-3/4 object-contain rounded-lg mb-4 cursor-pointer transform hover:scale-105 transition-transform duration-500 ease-out"
             src="https://gym.birlaventures.com/images/step1.webp"
             alt="Step 1"
           />
         </div>
-        <div className="md:w-1/2 w-full mt-8 md:mt-0 text-center transition-transform transform hover:scale-105 md:text-left duration-500 ease-out">
+        <div className="md:w-1/2  w-full mt-8 md:mt-0 text-center transition-transform transform hover:scale-105 md:text-left duration-500 ease-out">
           <h1 className="text-2xl font-bold text-orange-500 transform hover:scale-105 transition-transform duration-500 ease-out">
             Step 1: Click on Get Started
           </h1>
@@ -24,8 +24,8 @@ const Steps = () => {
         </div>
       </div>
       {/* step2 */}
-      <div className="flex flex-col gap-2 lg:gap-6 md:flex-row items-center justify-center min-h-screen p-4">
-        <div className="md:w-1/2 w-full mt-8 md:mt-0 text-center transition-transform transform hover:scale-105 md:text-left duration-500 ease-out">
+      <div className="flex flex-col gap-2 lg:gap-6 md:flex-row items-center justify-center  p-4">
+        <div className="md:w-1/2 lg:order-1 order-2 w-full mt-8 md:mt-0 text-center transition-transform transform hover:scale-105 md:text-left duration-500 ease-out">
           <h1 className="text-2xl font-bold text-orange-500 transform hover:scale-105 transition-transform duration-500 ease-out">
             Step 2: Log Your Exercises
           </h1>
@@ -34,7 +34,7 @@ const Steps = () => {
             activities. Track your progress with detailed logs.
           </p>
         </div>
-        <div className="flex  items-center justify-center md:w-1/2 w-full">
+        <div className="flex order-1 lg:order-2  items-center justify-center md:w-1/2 w-full">
           <img
             className="w-3/4 object-contain rounded-lg mb-4 cursor-pointer transform hover:scale-105 transition-transform duration-500 ease-out"
             src="https://gym.birlaventures.com/images/step2.webp"
@@ -43,7 +43,7 @@ const Steps = () => {
         </div>
       </div>
       {/* step3 */}
-      <div className="flex flex-col gap-2 lg:gap-6 md:flex-row items-center justify-center min-h-screen p-4">
+      <div className="flex flex-col gap-2 lg:gap-6 md:flex-row items-center justify-center  p-4">
         <div className="flex  items-center justify-center md:w-1/2 w-full">
           <img
             className="w-3/4 object-contain rounded-lg mb-4 cursor-pointer transform hover:scale-105 transition-transform duration-500 ease-out"
@@ -62,8 +62,8 @@ const Steps = () => {
         </div>
       </div>
       {/* step 4 */}
-      <div className="flex flex-col gap-2 lg:gap-6 md:flex-row items-center justify-center min-h-screen p-4">
-        <div className="md:w-1/2 w-full mt-8 md:mt-0 text-center transition-transform transform hover:scale-105 md:text-left duration-500 ease-out">
+      <div className="flex flex-col gap-2 lg:gap-6 md:flex-row items-center justify-center  p-4">
+        <div className="md:w-1/2 lg:order-1 order-2 w-full mt-8 md:mt-0 text-center transition-transform transform hover:scale-105 md:text-left duration-500 ease-out">
           <h1 className="text-2xl font-bold text-orange-500 transform hover:scale-105 transition-transform duration-500 ease-out">
             Step 4: Track Your Progress
           </h1>
@@ -72,7 +72,7 @@ const Steps = () => {
             and reach your fitness goals.
           </p>
         </div>
-        <div className="flex  items-center justify-center md:w-1/2 w-full">
+        <div className="flex lg:order-2 order-1  items-center justify-center md:w-1/2 w-full">
           <img
             className="w-3/4 object-contain rounded-lg mb-4 cursor-pointer transform hover:scale-105 transition-transform duration-500 ease-out"
             src="https://gym.birlaventures.com/images/step4.webp"
@@ -81,7 +81,7 @@ const Steps = () => {
         </div>
       </div>
       {/* step5 */}
-      <div className="flex flex-col gap-2 lg:gap-6 md:flex-row items-center justify-center min-h-screen p-4">
+      <div className="flex flex-col gap-2 lg:gap-6 md:flex-row items-center justify-center  p-4">
         <div className="flex  items-center justify-center md:w-1/2 w-full">
           <img
             className="w-3/4 object-contain rounded-lg mb-4 cursor-pointer transform hover:scale-105 transition-transform duration-500 ease-out"
